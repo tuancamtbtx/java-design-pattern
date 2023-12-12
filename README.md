@@ -36,14 +36,6 @@ To use a specific design pattern in your own Java project, you can copy the rele
 Each package contains a README.md file that describes the design pattern being implemented, its purpose, the problems it solves, and the benefits it provides. Additionally, each package contains a set of example classes that demonstrate how to use the design pattern in practice.
 
 ## Contributing
-If you would like to contribute to this project, please follow these guidelines:
-
-- 1.Fork the project on GitHub.
-- 2.Create a new branch for your changes. 
-- 3.Make your changes and commit them with clear commit messages.
-- 4.Push your changes to your forked repository.
-Submit a pull request to the main project repository.
-All contributions are welcome and will be reviewed by the project maintainers. Please ensure that your contributions adhere to the project's coding standards and guidelines.
-
+The project has a separate contribution file. Please adhere to the steps listed in the separate contributions [file](./CONTRIBUTING.md)
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
