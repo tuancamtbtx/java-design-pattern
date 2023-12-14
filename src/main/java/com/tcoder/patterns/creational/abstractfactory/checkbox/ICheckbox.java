@@ -1,4 +1,8 @@
-package com.tcoder.patterns.creational.abstractfactory.checkbox;/**
+package com.tcoder.patterns.creational.abstractfactory.checkbox;
+
+/**
  * @author tuan.nguyen3
- */public class Checkbox {
+ */
+public interface ICheckbox {
+    void paint();
 }
