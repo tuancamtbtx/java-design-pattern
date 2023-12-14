@@ -2,33 +2,33 @@
 This project implements various design patterns in Java to showcase their usage and benefits in software development.
 
 ## Design Patterns Implemented
-The following design patterns have been implemented in this project:
 
-- Singleton
-- Factory Method
-- Abstract Factory
-- Builder
-- Prototype
-- Adapter
-- Bridge
-- Composite
-- Decorator
-- Facade
-- Flyweight
-- Proxy
-- Chain of Responsibility
-- Command
-- Interpreter
-- Iterator
-- Mediator
-- Memento
-- Observer
-- State
-- Strategy
-- Template Method
-- Visitor
+| No. | Name                 | Done | Note |
+|-----|----------------------|------|------|
+| 1   | Singleton            |      |      |
+| 2   | Factory Method       |      |      |
+| 3   | Abstract Factory     |      |      |
+| 4   | Builder              |      |      |
+| 5   | Prototype            |      |      |
+| 6   | Adapter              |      |      |
+| 7   | Bridge               |      |      |
+| 8   | Composite            |      |      |
+| 9   | Decorator            |      |      |
+| 10  | Facade               |      |      |
+| 11  | Flyweight            |      |      |
+| 12  | Proxy                |      |      |
+| 13  | Chain of Responsibility |   |      |
+| 14  | Command              |      |      |
+| 15  | Interpreter          |      |      |
+| 16  | Iterator             |      |      |
+| 17  | Mediator             |      |      |
+| 18  | Memento              |      |      |
+| 19  | Observer             |      |      |
+| 20  | State                |      |      |
+| 21  | Strategy             |      |      |
+| 22  | Template Method      |      |      |
+| 23  | Visitor              |      |      |
 
-Each design pattern has been implemented as a separate package in the project. The package names correspond to the design pattern being implemented.
 
 ## Usage
 To use a specific design pattern in your own Java project, you can copy the relevant package from this project and modify it to suit your needs.
