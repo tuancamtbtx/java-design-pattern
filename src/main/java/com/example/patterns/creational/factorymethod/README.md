@@ -5,6 +5,7 @@ but allows subclasses to alter the type of objects that will be created.
 
 ## Architecture
 ![img.png](img.png)
+## Use Case
 ## Solution
 
 ## Comparison between Abstract Factory and Factory Method
