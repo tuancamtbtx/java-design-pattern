@@ -8,7 +8,7 @@ import com.example.patterns.creational.factorymethod.impl.Tiger;
  * @author tuan.nguyen3
  */
 public class AnimalFactory {
-    public static enum AnimalType {
+    public enum AnimalType {
         DOG, CAT, TIGER
     }
     public static IAnimal createAnimal(AnimalType animalType) {

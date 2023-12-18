@@ -48,7 +48,6 @@ public class MySingleton {
     /**
      * Thread-safe Singleton with lazy loading and inner static class
      *
-     * @return
      */
     public static MySingleton getInstanceHolder() {
         return Loader.INSTANCE;
