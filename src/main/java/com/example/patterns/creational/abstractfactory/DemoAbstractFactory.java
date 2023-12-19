@@ -21,6 +21,8 @@ public class DemoAbstractFactory {
     }
     public static void main(String[] args) {
         Application app = configureApplication("mac");
+//        GUIFactory factory = GUIFactory.;
+
         app.paint();
     }
 }

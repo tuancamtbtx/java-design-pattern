@@ -3,10 +3,27 @@
 Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, 
 but allows subclasses to alter the type of objects that will be created.
 
-## Overview
-## Use Case
-## Solution
+### Problem
+When designing a system that needs to create objects without specifying the exact class of the object, the direct instantiation of classes within the client code can lead to tight coupling and make it difficult to substitute alternative implementations. This can lead to inflexible code that is hard to maintain and extend, especially when dealing with object creation in a complex system.
 
+### Solution
+The Factory Method pattern offers a solution to the problem of object creation by defining an interface for creating objects, but allowing subclasses to alter the type of objects that will be created. This pattern promotes loose coupling between the creator and the products it creates, allowing the creation of objects to be deferred to subclasses.
+
+### Pros of Factory Method Pattern:
+1. **Loose Coupling**: Promotes loose coupling between the creator and the products it creates, allowing the client code to interact with the products through the common interface.
+2. **Flexibility**: Provides flexibility by allowing subclasses to alter the type of objects that will be created without modifying the client code.
+3. **Code Reusability**: Encourages the reuse of code by providing a common interface for creating objects while allowing for variations in the product creation process.
+4. **Encapsulation**: Encapsulates the object creation process, providing an additional level of abstraction that allows for easy extension and modification.
+5. **Testing**: Facilitates unit testing and mocking, as the dependencies on concrete product classes can be replaced with test doubles or mock objects.
+
+### Cons of Factory Method Pattern:
+1. **Complexity**: The pattern can introduce additional complexity when dealing with multiple concrete creator and product implementations.
+2. **Increased Number of Classes**: It can lead to an increased number of classes, especially when dealing with various creator and product implementations.
+3. **Learning Curve**: It may have a learning curve for developers who are new to the pattern, especially when dealing with complex object creation.
+4. **Potential Over-Engineering**: It may lead to over-engineering if used in scenarios where the object creation requirements do not warrant the use of the pattern.
+5. **Decoupling Challenges**: It can be challenging to decouple the client from the concrete creator and product classes, especially when the client needs to interact directly with the created objects.
+
+When using the Factory Method pattern, it's essential to carefully evaluate its benefits and drawbacks within the context of the specific application or system. While it provides advantages in terms of loose coupling and flexibility, its potential limitations should be considered to ensure its effective and efficient use within a software system.
 ## Comparison between Abstract Factory and Factory Method
 | Criteria          | Abstract Factory                                                                                                                                                                                                                       | Factory Method                                                                                                                                  |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
